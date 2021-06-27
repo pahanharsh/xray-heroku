@@ -1,0 +1,16 @@
+---
+application:
+  name: "xray-heroku"
+  project: "Bots"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "Don't know"
+    size: "500"
+    type: "hdd"
+    mount_point: "Don't know"
+routers:
+- name: "main-xray-heroku"
+  routes:
+  - application_name: "xray-heroku"
+    paths:
+    - "/*"
